@@ -1,0 +1,54 @@
+.top{
+    height: 50px;
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    z-index: 999;
+    background-color:lemonchiffon;
+}
+
+.top-left, .top-right{
+    flex: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fa-brands{
+    font-size: 20px;
+    margin-right: 10px;
+    color:brown;
+}
+
+.top-center{
+    flex: 6;
+}
+
+.top-list{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.top-list-item{
+    margin-right: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    color:indianred;
+}
+
+.top-image{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.fa-solid{
+    font-size: 18px;
+    color: brown;
+    cursor: pointer;
+    margin-left: 15px;
+}
